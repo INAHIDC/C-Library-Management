@@ -1,0 +1,7 @@
+idkyet.com {
+    reverse_proxy localhost:3000  
+}
+
+file_server {
+    root ./public
+}

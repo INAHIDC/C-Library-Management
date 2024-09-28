@@ -1,0 +1,76 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Library of the Ni Society of London</title>
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url('https://images6.alphacoders.com/705/705836.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Courier New", Courier, monospace;
+            position: relative;
+        }
+
+        .grain-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images5.alphacoders.com/135/1358521.png'); 
+            opacity: 100;
+            pointer-events: none;
+        }
+
+        .overlay {
+            background-color: rgba(243, 243, 243, 0.846);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            width: 500px;
+            z-index: 1; 
+        }
+
+    
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .nes-btn {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grain-overlay"></div>
+
+    <div class="overlay">
+        <h1>The Library of the Ni Society of London</h1>
+        <div class="button-container">
+            
+            <a href="/member">
+                <button class="nes-btn is-primary">Members</button>
+            </a>
+            <a href="/librarian">
+                <button class="nes-btn is-warning">Librarians</button>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
