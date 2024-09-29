@@ -2,7 +2,7 @@
 #  Library Management System in C
 
 
-## whatiss it ?
+## what iss itt ?
 
 - **Search & Sort**: search for books by title, author, or year, and sort results by title or year. - i used bubble sort
 - **Librarian Actions**: Librarians can add and delete books, with 'maybe' plans for modifying book records.
